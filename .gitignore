@@ -6,3 +6,5 @@
 !.github/
 !.github/**
 !index.html
+!media/
+!media/*.mp4
