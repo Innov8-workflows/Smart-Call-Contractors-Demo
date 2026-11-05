@@ -22,8 +22,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Stage only the built page
-        run: mkdir _site && cp index.html og-card-2.jpg _site/ && cp -r media _site/
+      # _site is the full build from generate.js (committed); publish it as it is
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

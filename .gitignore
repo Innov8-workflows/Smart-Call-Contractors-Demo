@@ -9,3 +9,5 @@
 !media/
 !media/*.mp4
 !og-card-2.jpg
+!_site/
+!_site/**
