@@ -164,3 +164,11 @@
 @media(max-width:960px){.aw-grid{grid-template-columns:1fr;gap:36px}.aw-trophy{max-width:520px;width:100%;margin:0 auto}}
 @media(max-width:700px){.aw-row{grid-template-columns:1fr;gap:18px;padding:24px 20px}.aw-logo{width:110px}.aw-dl{grid-template-columns:1fr 1fr}}
 @media(max-width:600px){.aw-scores .rev-score{display:grid;grid-template-columns:1fr 1fr;gap:10px}.aw-scores .rev-sc{padding:10px 12px;gap:9px}.aw-scores .rev-sc b{font-size:1.3rem}.aw-scores .rev-sc .rev-logo{width:32px;height:32px}.aw-scores .rev-sc .rev-logo svg{width:26px;height:26px}.aw-scores .lbl-x{display:none}}
+
+.aw-schemes.aw-photo{position:relative;overflow:hidden;isolation:isolate;background:var(--ink);border-color:transparent}
+.aw-photo-bg{position:absolute;inset:0;z-index:-2;background-size:cover;background-position:center}
+.aw-photo-scrim{position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(var(--ink-rgb),.80) 0%,rgba(var(--ink-rgb),.70) 50%,rgba(var(--ink-rgb),.90) 100%)}
+.aw-schemes.aw-photo .eyebrow{color:var(--brand-lt)}
+.aw-schemes.aw-photo .h-sec{color:#fff}
+.aw-schemes.aw-photo .lead{color:var(--on-ink-2,rgba(255,255,255,.82))}
+.aw-schemes.aw-photo .aw-row{border-color:transparent;box-shadow:0 22px 50px -30px rgba(0,0,0,.6)}
