@@ -1070,14 +1070,14 @@ footer h4{font-family:var(--display);font-weight:700;color:var(--brand-lt);font-
 @media(prefers-reduced-motion:reduce){.map-base::after{animation:mapPulse 2.4s ease-out infinite!important}}
 </style>
         <div class="map-card" id="mapCard">
-          <div class="map-card-head"><span class="map-live"></span><b>Coverage map</b><small>14 towns<span class="map-head-more"> we cover</span></small></div>
-          <div class="area-map" id="areaMap" role="img" aria-label="Map of Grimsby and the 13 surrounding towns Smart Call Contractors covers"></div>
+          <div class="map-card-head"><span class="map-live"></span><b>Coverage map</b><small>28 towns<span class="map-head-more"> we cover</span></small></div>
+          <div class="area-map" id="areaMap" role="img" aria-label="Map of Grimsby and the 27 surrounding towns Smart Call Contractors covers"></div>
         </div>
 <script>
 (function(){
   var el = document.getElementById("areaMap"), card = document.getElementById("mapCard");
   if (!el) return;
-  var TOWNS = [["Grimsby",53.5671,-0.0788],["Cleethorpes",53.5572,-0.029],["Immingham",53.616,-0.2137],["Scunthorpe",53.5922,-0.6451],["Brigg",53.5525,-0.4896],["Barton-upon-Humber",53.6858,-0.4395],["Market Rasen",53.3879,-0.3377],["Louth",53.3675,-0.0022],["Gainsborough",53.3995,-0.7759],["Mablethorpe",53.3408,0.2607],["Skegness",53.1438,0.3429],["Hull",53.7624,-0.3301],["Beverley",53.8425,-0.4316],["Bridlington",54.0822,-0.1909]], started = false;
+  var TOWNS = [["Grimsby",53.5671,-0.0788],["Cleethorpes",53.5572,-0.029],["Waltham",53.5124,-0.0923],["New Waltham",53.5336,-0.0712],["Humberston",53.534,-0.0235],["Laceby",53.5379,-0.1673],["Tetney",53.5047,0.004],["Holton le Clay",53.5027,-0.0597],["Scartho",53.5374,-0.0864],["Keelby",53.5747,-0.2439],["Immingham",53.616,-0.2137],["Caistor",53.4969,-0.3154],["Kirton in Lindsey",53.4764,-0.5891],["Louth",53.3675,-0.0022],["Mablethorpe",53.3408,0.2607],["Brigg",53.5525,-0.4896],["Market Rasen",53.3879,-0.3377],["Scunthorpe",53.5922,-0.6451],["Barton-upon-Humber",53.6858,-0.4395],["Winterton",53.655,-0.598],["Hull",53.7624,-0.3301],["Hessle",53.7232,-0.4349],["Anlaby",53.7453,-0.4322],["Beverley",53.8425,-0.4316],["Cottingham",53.7805,-0.4179],["Willerby",53.7574,-0.4466],["Swanland",53.7387,-0.4894],["Hedon",53.7404,-0.194]], started = false;
   function load(){
     if (started) return; started = true;
     var css = document.createElement("link");
