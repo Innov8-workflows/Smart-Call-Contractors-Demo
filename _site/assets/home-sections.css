@@ -46,6 +46,11 @@
 .town-job svg{width:16px;height:16px;flex:none;color:var(--brand-dp);margin-top:2px}
 .town-card--page .town-job svg{color:var(--brand-lt)}
 .hub-not-listed{margin-top:26px;color:var(--muted);max-width:62ch}
+.town-office{font-family:var(--display);font-weight:800;text-transform:uppercase;font-size:1rem;letter-spacing:.04em;color:var(--ink);margin:30px 0 0}
+.town-office+.town-grid{margin-top:14px}
+.town-office-addr{color:var(--muted);margin:6px 0 0}
+.town-office-addr+.town-grid{margin-top:14px}
+.town-office-addr a{color:var(--ink);font-weight:700}
 @media(max-width:1060px){.town-grid{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:860px){.proof-list,.area-svc-grid,.area-reviews{grid-template-columns:1fr}}
 @media(max-width:560px){.town-grid{grid-template-columns:1fr}}
@@ -172,3 +177,4 @@
 .aw-schemes.aw-photo .h-sec{color:#fff}
 .aw-schemes.aw-photo .lead{color:var(--on-ink-2,rgba(255,255,255,.82))}
 .aw-schemes.aw-photo .aw-row{border-color:transparent;box-shadow:0 22px 50px -30px rgba(0,0,0,.6)}
+.office-group+.office-group{margin-top:26px}.office-head{display:flex;flex-direction:column;gap:3px;margin:0 0 12px}.office-tag{font-family:var(--display);font-weight:700;font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;color:var(--gold)}.office-area{font-family:var(--display);font-weight:800;font-size:1.05rem;line-height:1.25;color:#fff}.office-addr{font-size:.86rem;color:rgba(255,255,255,.78)}.office-addr a{color:#fff;font-weight:700;white-space:nowrap;text-decoration:underline;text-underline-offset:3px}.office-more{margin:10px 0 0;font-size:.86rem;color:rgba(255,255,255,.78)}
